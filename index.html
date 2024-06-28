@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Schmidt - CV</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding-top: 30px;
+            min-height: 70px;
+            border-bottom: #77a6b6 3px solid;
+        }
+        header h1 {
+            margin: 0;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        header nav {
+            text-align: center;
+        }
+        header nav ul {
+            padding: 0;
+            list-style: none;
+        }
+        header nav ul li {
+            display: inline;
+            padding: 0 20px;
+        }
+        header nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        #showcase {
+            min-height: 300px;
+            background: url('profile-bg.jpg') no-repeat 0 -400px;
+            text-align: center;
+            color: #fff;
+        }
+        #showcase h1 {
+            margin-top: 100px;
+            font-size: 55px;
+            margin-bottom: 10px;
+        }
+        #showcase p {
+            font-size: 20px;
+        }
+        .section {
+            padding: 20px;
+            margin-bottom: 10px;
+            background: #fff;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .section h2 {
+            margin-bottom: 10px;
+            border-bottom: 2px solid #77a6b6;
+            padding-bottom: 5px;
+        }
+        .section p {
+            line-height: 1.6em;
+        }
+        #contact {
+            background: #333;
+            color: #fff;
+            padding: 30px;
+            text-align: center;
+        }
+        #contact h2 {
+            margin-bottom: 10px;
+        }
+        #contact p {
+            line-height: 1.6em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Michael Schmidt</h1>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!--section id="showcase">
+        <div class="container">
+            <h1>Welcome to My Profile</h1>
+            <p>Experienced Engineering Manager based in Bangkok</p>
+        </div>
+    </section -->
+
+    <section id="about" class="section container">
+        <h2>About Me</h2>
+        <p>Experienced Engineering Manager with a proven record of success in IT leadership. Skilled in strategic financial management, optimizing data workflows, and implementing cost-efficient cloud solutions. Noteworthy accomplishments include reducing cloud costs by 56% and increasing order handling capacity by 15x. Proficient in driving product development from inception to delivery, adeptly managing cross-functional teams, fostering innovation, and achieving operational excellence in both IT and product development spheres.</p>
+    </section>
+
+    <section id="experience" class="section container">
+        <h2>Work History</h2>
+        <h3>ENGINEERING MANAGER | 02/2023 to present</h3>
+        <p><strong>CREA Co., Ltd - Bangkok, Bangkok</strong></p>
+        <ul>
+            <li>Manage IT budget, aligning financial decisions with organizational objectives, and collaborate with the team for cost-effectiveness and resource optimization</li>
+            <li>Lead the integrated team, including data, software, DevOps, and IT management, using agile Scrum methodologies</li>
+            <li>Oversee task definition and execution, ensuring alignment with project goals and setting Key Performance Indicators (KPIs) to measure progress and performance across all technical domains</li>
+            <li>Successfully led the migration of Looker to Superset and the data warehouse relocation from GCP to AWS</li>
+        </ul>
+
+        <h3>DEVOPS TECH LEAD | 01/2021 to 02/2023</h3>
+        <p><strong>CREA Co., Ltd - Bangkok, Bangkok</strong></p>
+        <ul>
+            <li>Oversee and manage the AWS budget</li>
+            <li>Design, develop and maintain Solutions on AWS using SQS, EKS, Lambda</li>
+            <li>Onboarded multiple applications onto EKS, such as Odoo</li>
+        </ul>
+
+        <h3>DEVOPS TECH LEAD | 04/2019 to 01/2021</h3>
+        <p><strong>integrationWorks Asia Co., Ltd - Bangkok, Bangkok</strong></p>
+        <ul>
+            <li>Develop a DevOps API to accelerate new project onboarding</li>
+            <li>Collaborated on all stages of the API development lifecycle, from requirement gathering to production releases</li>
+            <li>Managed a team of 2 DevOps engineers providing the best CI/CD solutions and resolve infrastructure issues</li>
+        </ul>
+
+        <h3>SOFTWARE DEVELOPER | 11/2017 to 03/2019</h3>
+        <p><strong>Airport Munich GmbH - Munich, Germany</strong></p>
+        <ul>
+            <li>Managed and developed interfaces using IBM Integration Bus to integrate new and legacy applications into the airport IT landscape</li>
+            <li>Designed and created an automated and centralized CI/CD Pipeline to reduce deployment times and reduced manual tasks</li>
+            <li>Managed a Project to increase maturity of the integration platform.</li>
+        </ul>
+
+        <h3>SOFTWARE DEVELOPER | 10/2013 to 11/2017</h3>
+        <p><strong>integrationWorks GmbH - Munich, Germany</strong></p>
+        <ul>
+            <li>Designed and developed interfaces using IBM Integration Bus for diverse customers like BMW, UniCredit, ThyssenKrupp</li>
+            <li>Configured and maintained build pipelines to fit the customers' needs</li>
+            <li>Planned and conducted workshops for IBM MQ and IBM Integration Bus to onboard new developers</li>
+        </ul>
+
+        <h3>APPLICATION ENGINEER | 03/2013 to 10/2013</h3>
+        <p><strong>OSB AG - Munich, Germany</strong></p>
+        <ul>
+            <li>Provided second-level support for customers of Rata@net</li>
+            <li>Enhanced application Monitoring using Nagios</li>
+            <li>Configured and maintained Talend job scheduler for nightly batch processing</li>
+        </ul>
+
+        <h3>SYSTEM SPECIALIST | 01/2010 to 03/2013</h3>
+        <p><strong>UniCredit Group - Munich, Germany</strong></p>
+        <ul>
+            <li>Planned and implemented release rollouts including multiple development departments</li>
+            <li>Automated the MQ client configuration</li>
+            <li>Conducted proof of concepts and proving feasibility of new product version like IBM MQ, MQFTE</li>
+            <li>Provided 3rd Level Support for the centralized integration platform</li>
+        </ul>
+    </section>
+
+    <section id="education" class="section container">
+        <h2>Education</h2>
+        <p><strong>Vocational School For Information Technology - Munich</strong></p>
+        <p>Apprenticeship: Computer Science Expert - Systemintegration</p>
+    </section>
+
+    <section id="skills" class="section container">
+        <h2>Skills</h2>
+        <ul>
+            <li>Team Building</li>
+            <li>Technical Analysis</li>
+            <li>Cross-Functional Collaboration</li>
+            <li>Software Development Lifecycle</li>
+            <li>AWS, GCP</li>
+            <li>Docker, Kubernetes, EKS</li>
+            <li>IBM MQ & IBM Integration Bus</li>
+            <li>Microsoft Identity Management</li>
+        </ul>
+    </section>
+
+    <section id="certifications" class="section container">
+        <h2>Certifications</h2>
+        <ul>
+            <li>NewCampus Leadership Accelerator</li>
+            <li>NewCampus Management Essentials</li>
+            <li>AWS Certified Solutions Architect – Associate</li>
+            <li>AWS Certified Cloud Practitioner</li>
+            <li>Red Hat Certified System Administrator</li>
+            <li>IBM Certified System Administrator - WebSphere Message Broker V8.0</li>
+            <li>IBM Certified System Administrator - WebSphere MQ V7.0</li>
+            <li>IBM Certified MQ Solution Designer - WebSphere MQ V7.0</li>
+            <li>IBM Certified Solution Developer - Integration Bus V9.0</li>
+            <li>IBM Certified SOA Associate</li>
+        </ul>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact</h2>
+            <p><strong>Michael Schmidt</strong></p>
+            <p>Bangkok, Thailand 10110</p>
+            <p><a href="https://www.linkedin.com/in/michi-schmidt/" target="_blank">LinkedIn: https://www.linkedin.com/in/michi-schmidt/</a></p>
+        </div>
+    </section>
+</body>
+</html>
+
